@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* MyRecorderAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 314}";
+			sepNavWindowFrame = "{{112, 414}, {750, 558}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* MyRecorderAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 282}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 370}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F488B12E11963C8E007E66B7 /* MyRecorder */;
+		activeTarget = 8D1107260486CEB800E47090 /* MyRecorder */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MyRecorder */,
+		);
+		codeSenseManager = F488B13C11963CB3007E66B7 /* Code sense */;
+		executables = (
+			F488B12E11963C8E007E66B7 /* MyRecorder */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					750,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					301,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 295058574;
+			PBXWorkspaceStateSaveDate = 295058574;
+		};
+		perUserProjectItems = {
+			F488B160119662D7007E66B7 /* PBXTextBookmark */ = F488B160119662D7007E66B7 /* PBXTextBookmark */;
+			F488B161119662D7007E66B7 /* PBXTextBookmark */ = F488B161119662D7007E66B7 /* PBXTextBookmark */;
+			F488B162119662D7007E66B7 /* PBXTextBookmark */ = F488B162119662D7007E66B7 /* PBXTextBookmark */;
+			F488B164119662D7007E66B7 /* PBXTextBookmark */ = F488B164119662D7007E66B7 /* PBXTextBookmark */;
+			F488B166119662D7007E66B7 /* PBXTextBookmark */ = F488B166119662D7007E66B7 /* PBXTextBookmark */;
+			F488B167119662D7007E66B7 /* PBXTextBookmark */ = F488B167119662D7007E66B7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F488B13B11963CB3007E66B7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* MyRecorder */ = {
+		activeExec = 0;
+		executables = (
+			F488B12E11963C8E007E66B7 /* MyRecorder */,
+		);
+	};
+	F488B12E11963C8E007E66B7 /* MyRecorder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MyRecorder;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	F488B13B11963CB3007E66B7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F488B13C11963CB3007E66B7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F488B14311963D0D007E66B7 /* MyRecorderController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 312}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 513}";
+		};
+	};
+	F488B14411963D0D007E66B7 /* MyRecorderController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1404}}";
+			sepNavSelRange = "{551, 0}";
+			sepNavVisRange = "{140, 1088}";
+		};
+	};
+	F488B160119662D7007E66B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* MyRecorderAppDelegate.m */;
+		name = "MyRecorderAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 370;
+		vrLoc = 0;
+	};
+	F488B161119662D7007E66B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F488B14311963D0D007E66B7 /* MyRecorderController.h */;
+		name = "MyRecorderController.h: 14";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 0;
+	};
+	F488B162119662D7007E66B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F488B163119662D7007E66B7 /* QTMedia.h */;
+		name = "QTMedia.h: 31";
+		rLen = 93;
+		rLoc = 904;
+		rType = 0;
+		vrLen = 1152;
+		vrLoc = 21;
+	};
+	F488B163119662D7007E66B7 /* QTMedia.h */ = {
+		isa = PBXFileReference;
+		name = QTMedia.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/Headers/QTMedia.h;
+		sourceTree = "<absolute>";
+	};
+	F488B164119662D7007E66B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F488B165119662D7007E66B7 /* QTCaptureDevice.h */;
+		name = "QTCaptureDevice.h: 111";
+		rLen = 116;
+		rLoc = 8776;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 7768;
+	};
+	F488B165119662D7007E66B7 /* QTCaptureDevice.h */ = {
+		isa = PBXFileReference;
+		name = QTCaptureDevice.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/Headers/QTCaptureDevice.h;
+		sourceTree = "<absolute>";
+	};
+	F488B166119662D7007E66B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F488B14411963D0D007E66B7 /* MyRecorderController.m */;
+		name = "MyRecorderController.m: 28";
+		rLen = 31;
+		rLoc = 653;
+		rType = 0;
+		vrLen = 1043;
+		vrLoc = 137;
+	};
+	F488B167119662D7007E66B7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F488B14411963D0D007E66B7 /* MyRecorderController.m */;
+		name = "MyRecorderController.m: 26";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 140;
+	};
+}
