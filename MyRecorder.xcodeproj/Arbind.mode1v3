@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -297,7 +297,7 @@
 							<real>270</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>19 123 1281 655 0 0 1280 778 </string>
+						<string>0 123 1280 655 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -327,14 +327,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F488B167119662D7007E66B7</string>
+										<string>F4019B43119675AC008767EA</string>
 										<key>history</key>
 										<array>
 											<string>F488B160119662D7007E66B7</string>
-											<string>F488B161119662D7007E66B7</string>
 											<string>F488B162119662D7007E66B7</string>
 											<string>F488B164119662D7007E66B7</string>
-											<string>F488B166119662D7007E66B7</string>
+											<string>F4019B38119673FB008767EA</string>
+											<string>F4019B39119673FB008767EA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,9 +346,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {989, 511}}</string>
+								<string>{{0, 0}, {988, 511}}</string>
 								<key>RubberWindowFrame</key>
-								<string>19 123 1281 655 0 0 1280 778 </string>
+								<string>0 123 1280 655 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -366,9 +366,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 516}, {989, 98}}</string>
+								<string>{{0, 516}, {988, 98}}</string>
 								<key>RubberWindowFrame</key>
-								<string>19 123 1281 655 0 0 1280 778 </string>
+								<string>0 123 1280 655 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -377,7 +377,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>989pt</string>
+					<string>988pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -392,9 +392,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F488B168119662D7007E66B7</string>
+				<string>F4019B3B119673FB008767EA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F488B169119662D7007E66B7</string>
+				<string>F4019B3C119673FB008767EA</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -532,15 +532,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>F488B16B119662D7007E66B7</string>
-		<string>F488B16C119662D7007E66B7</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F488B14D11964111007E66B7</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/Arbind/Desktop/iSight/example/Scratch/MyRecorder/MyRecorder.xcodeproj</string>
+		<string>/Users/Arbind/code/domi/video-monitor/MyRecorder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>19 123 1281 655 0 0 1280 778 </string>
+	<string>0 123 1280 655 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -617,7 +613,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F488B14D11964111007E66B7</string>
-				<string>F488B14E11964111007E66B7</string>
+				<string>F4019B3D119673FB008767EA</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

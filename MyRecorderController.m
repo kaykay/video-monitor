@@ -92,4 +92,10 @@
 	NSLog(@"%@", @"Recording Finished.");	
 }
 
+
+- (void)captureOutput:(QTCaptureFileOutput *)captureOutput didOutputSampleBuffer:(QTSampleBuffer *)sampleBuffer fromConnection:(QTCaptureConnection *)connection {
+	NSLog(@" Samples:%d   Len:%d   Format:%@", [sampleBuffer numberOfSamples], [sampleBuffer lengthForAllSamples], [sampleBuffer formatDescription]);
+}
+
+
 @end

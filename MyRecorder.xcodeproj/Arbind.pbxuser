@@ -71,16 +71,16 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 295058574;
-			PBXWorkspaceStateSaveDate = 295058574;
+			PBXPerProjectTemplateStateSaveDate = 295073196;
+			PBXWorkspaceStateSaveDate = 295073196;
 		};
 		perUserProjectItems = {
-			F488B160119662D7007E66B7 /* PBXTextBookmark */ = F488B160119662D7007E66B7 /* PBXTextBookmark */;
-			F488B161119662D7007E66B7 /* PBXTextBookmark */ = F488B161119662D7007E66B7 /* PBXTextBookmark */;
-			F488B162119662D7007E66B7 /* PBXTextBookmark */ = F488B162119662D7007E66B7 /* PBXTextBookmark */;
-			F488B164119662D7007E66B7 /* PBXTextBookmark */ = F488B164119662D7007E66B7 /* PBXTextBookmark */;
-			F488B166119662D7007E66B7 /* PBXTextBookmark */ = F488B166119662D7007E66B7 /* PBXTextBookmark */;
-			F488B167119662D7007E66B7 /* PBXTextBookmark */ = F488B167119662D7007E66B7 /* PBXTextBookmark */;
+			F488B160119662D7007E66B7 = F488B160119662D7007E66B7 /* PBXTextBookmark */;
+			F488B161119662D7007E66B7 = F488B161119662D7007E66B7 /* PBXTextBookmark */;
+			F488B162119662D7007E66B7 = F488B162119662D7007E66B7 /* PBXTextBookmark */;
+			F488B164119662D7007E66B7 = F488B164119662D7007E66B7 /* PBXTextBookmark */;
+			F488B166119662D7007E66B7 = F488B166119662D7007E66B7 /* PBXTextBookmark */;
+			F488B167119662D7007E66B7 = F488B167119662D7007E66B7 /* PBXTextBookmark */;
 		};
 		sourceControlManager = F488B13B11963CB3007E66B7 /* Source Control */;
 		userBuildSettings = {
@@ -138,7 +138,7 @@
 	};
 	F488B14311963D0D007E66B7 /* MyRecorderController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {694, 312}}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 476}}";
 			sepNavSelRange = "{275, 0}";
 			sepNavVisRange = "{0, 513}";
 		};
@@ -182,6 +182,7 @@
 	};
 	F488B163119662D7007E66B7 /* QTMedia.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = QTMedia.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/Headers/QTMedia.h;
 		sourceTree = "<absolute>";
@@ -198,6 +199,7 @@
 	};
 	F488B165119662D7007E66B7 /* QTCaptureDevice.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = QTCaptureDevice.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/Headers/QTCaptureDevice.h;
 		sourceTree = "<absolute>";
