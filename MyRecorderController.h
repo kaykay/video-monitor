@@ -15,9 +15,14 @@
 	QTCaptureSession           *mCaptureSession;
 	QTCaptureMovieFileOutput   *mCaptureMovieFileOutput;
 	QTCaptureDeviceInput       *mCaptureDeviceInput;	
+	
+	NSTimer *_timer;
 }
 
-- (IBAction)startRecording:(id)sender;
+@property (nonatomic, retain) NSTimer *timer;
 
+- (IBAction)startRecording:(id)sender;
 - (IBAction)stopRecording:(id)sender;
+- (IBAction)recordToNextFile:(id)sender;
+
 @end
