@@ -1,0 +1,166 @@
+Tstr
+v7
+r0
+t295081780.781012
+cCheck dependencies
+cProcessInfoPlistFile /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/str.app/Contents/Resources/rb_main.rb rb_main.rb
+cCompileXIB /Users/kk/projects/vid-mon/str/English.lproj/MainMenu.xib
+cCompileC build/str.build/Debug/str.build/Objects-normal/x86_64/main.o /Users/kk/projects/vid-mon/str/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/MacOS/str normal x86_64
+cTouch /Users/kk/projects/vid-mon/str/build/Debug/str.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B61DA9D00000000000000EE
+t1264704157
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004BDB4850000000000000005F
+t1272662096
+s95
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004BDF355E0000000001C109E8
+t1272919390
+s29428200
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/kk/projects/vid-mon/str/English.lproj/InfoPlist.strings
+c000000004BE65FA600000000000000BA
+t1273388966
+s186
+
+N/Users/kk/projects/vid-mon/str/English.lproj/MainMenu.xib
+c000000004BE65FA6000000000001B56C
+t1273388966
+s111980
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app
+t1273388980
+s102
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Info.plist
+t1273388978
+s757
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/MacOS/str
+t1273388980
+s9656
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/PkgInfo
+t1273388978
+s8
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1273388978
+s186
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj/MainMenu.nib
+t1273388978
+s19257
+
+N/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/rb_main.rb
+t1273388978
+s613
+
+N/Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/Objects-normal/x86_64/main.o
+t1273388979
+s7440
+
+N/Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/Objects-normal/x86_64/str.LinkFileList
+c000000004BE65FB2000000000000005C
+t1273388978
+s92
+
+N/Users/kk/projects/vid-mon/str/main.m
+c000000004BE65FA600000000000000F5
+t1273388966
+s245
+i<MacRuby/MacRuby.h>
+
+N/Users/kk/projects/vid-mon/str/rb_main.rb
+c000000004BE65FA60000000000000265
+t1273388966
+s613
+
+NInfo.plist
+c000000004BE65FA60000000000000340
+t1273388966
+s832
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies295081778#295081778#0(0"0(0#1#0"4300903632#0"0#
+
+CCompileC build/str.build/Debug/str.build/Objects-normal/x86_64/main.o /Users/kk/projects/vid-mon/str/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s295081778.520660
+e295081780.066825
+r1
+xCompileC
+xbuild/str.build/Debug/str.build/Objects-normal/x86_64/main.o
+x/Users/kk/projects/vid-mon/str/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/kk/projects/vid-mon/str/main.m295081778#295081780#0(0"0(0#0#37"/Users/kk/projects/vid-mon/str/main.m4300903632#865"    cd /Users/kk/projects/vid-mon/str    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/str.hmap -F/Users/kk/projects/vid-mon/str/build/Debug -F/Users/kk/projects/vid-mon/str/build/Debug -I/Users/kk/projects/vid-mon/str/build/Debug/include -I/Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/DerivedSources/x86_64 -I/Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/DerivedSources -c /Users/kk/projects/vid-mon/str/main.m -o /Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/kk/projects/vid-mon/str/English.lproj/MainMenu.xib
+s295081778.133779
+e295081778.519223
+r1
+xCompileXIB
+x/Users/kk/projects/vid-mon/str/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib295081778#295081778#0(0"0(0#0#57"/Users/kk/projects/vid-mon/str/English.lproj/MainMenu.xib4300903632#299"    cd /Users/kk/projects/vid-mon/str    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj/MainMenu.nib /Users/kk/projects/vid-mon/str/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s295081778.132404
+e295081778.400577
+r1
+xCopyStringsFile
+x/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings295081778#295081778#0(0"0(0#0#62"/Users/kk/projects/vid-mon/str/English.lproj/InfoPlist.strings4300903632#346"    cd /Users/kk/projects/vid-mon/str    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/str.app/Contents/Resources/rb_main.rb rb_main.rb
+s295081778.133240
+e295081778.216368
+r1
+xCpResource
+xbuild/Debug/str.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb295081778#295081778#0(0"0(0#0#41"/Users/kk/projects/vid-mon/str/rb_main.rb4300903632#298"    cd /Users/kk/projects/vid-mon/str    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kk/projects/vid-mon/str/rb_main.rb /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Resources0#
+
+CLd /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/MacOS/str normal x86_64
+s295081780.067023
+e295081780.776562
+r1
+xLd
+x/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/MacOS/str
+xnormal
+xx86_64
+lSLF07#2@74"Link /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/MacOS/str295081780#295081780#0(0"0(0#0#0"4300903632#546"    cd /Users/kk/projects/vid-mon/str    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kk/projects/vid-mon/str/build/Debug -F/Users/kk/projects/vid-mon/str/build/Debug -F/Users/kk/projects/vid-mon/str/build/Debug -filelist /Users/kk/projects/vid-mon/str/build/str.build/Debug/str.build/Objects-normal/x86_64/str.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/MacOS/str0#
+
+CProcessInfoPlistFile /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Info.plist Info.plist
+s295081778.126220
+e295081778.132309
+r1
+xProcessInfoPlistFile
+x/Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist295081778#295081778#0(0"0(0#0#41"/Users/kk/projects/vid-mon/str/Info.plist4300903632#270"    cd /Users/kk/projects/vid-mon/str    builtin-infoPlistUtility Info.plist -genpkginfo /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kk/projects/vid-mon/str/build/Debug/str.app/Contents/Info.plist0#
+
+CTouch /Users/kk/projects/vid-mon/str/build/Debug/str.app
+s295081780.776648
+e295081780.780961
+r1
+xTouch
+x/Users/kk/projects/vid-mon/str/build/Debug/str.app
+lSLF07#2@56"Touch /Users/kk/projects/vid-mon/str/build/Debug/str.app295081780#295081780#0(0"0(0#0#0"4300903632#111"    cd /Users/kk/projects/vid-mon/str    /usr/bin/touch -c /Users/kk/projects/vid-mon/str/build/Debug/str.app0#
+
