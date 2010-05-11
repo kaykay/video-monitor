@@ -15,8 +15,9 @@ class MyController < NSWindowController
   attr_accessor :capture_session_started
   attr_accessor :ind
   FileNamePrefix = "/Users/Shared/rec/seg"
-  ProcessedDirPath = "/Users/kk/Sites/proc/"
+  ProcessedDirPath = "/Users/Arbind/Sites/proc/"
   ProcessedStreams = []
+	sequence = 0
   def awakeFromNib
 	capture_session = QTCaptureSession.new()
 	success = false
@@ -77,7 +78,7 @@ class MyController < NSWindowController
 	@capture_session_started = true;
 	Thread.new do
 		while(@capture_session_started == true)
-			sleep 5
+			sleep 1
 			@ind = ind+1
 			capture_movie_file_output.recordToOutputFileURL(NSURL.fileURLWithPath(FileNamePrefix +  ind.to_s + ".mov"));
 		end
@@ -117,10 +118,16 @@ class MyController < NSWindowController
 	
   #  NSWorkspace.sharedWorkspace.openURL(outputFileURL);
   end
-  
+
+
   def write_playlist_file
+		sequence = 0
+		if ProcessedStreams.size > 3 
+			sequence = ProcessedStreams.size - 3
+		end
 	fileHeader = "#EXTM3U
-#EXT-X-TARGETDURATION:5"
+#EXT-X-TARGETDURATION:5 
+#EXT-X-MEDIA-SEQUENCE:#{sequence}"
 	fileString = fileHeader + "\n"
 	streams = nil
 	if ProcessedStreams.size > 3 
@@ -129,7 +136,8 @@ class MyController < NSWindowController
 		streams = ProcessedStreams
 	end
 	streams.each do |s|
-		fileString += "#EXT-X-MEDIA-SEQUENCE:#{s[2]}\n" + "#EXTINF:#{s[1]}, \n" + "#{s[0]}\n"
+		fileString += "#EXTINF:#{s[1]}, \n" + "#{s[0]}\n"
+		sequence = sequence+1;
 	end
 	File.open(ProcessedDirPath + "prog_index.m3u8", "w") do |f|
 		f.write(fileString)
